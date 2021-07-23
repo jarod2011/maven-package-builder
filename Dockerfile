@@ -1,4 +1,4 @@
-FROM maven:openjdk
+FROM maven:3-openjdk-11
 LABEL org.opencontainers.image.authors="xinghen249@gmail.com"
 
 RUN mkdir -p /build /release
